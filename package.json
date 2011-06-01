@@ -2,7 +2,7 @@
 	"name": "fifth-ceylon",
 	"version": "0.0.1a",
 	"dependencies": {
-		"express": "2.2.0"
+		"express": "2.2.0",
 		"optimist": "0.2.3"
 	}
 }
