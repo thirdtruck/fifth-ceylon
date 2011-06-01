@@ -5,7 +5,7 @@
   ops = require('optimist');
   fifthCeylon = require('fifth-ceylon');
   server = new fifthCeylon.App;
-  port = ops.argv.port || 3000;
+  port = ops.argv.port || process.env.PORT || 3000;
   server.listen(port);
   console.log("Listening on port " + port);
 }).call(this);
