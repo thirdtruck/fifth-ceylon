@@ -22,4 +22,5 @@ rerun.txt
 ._*
 
 pomodoro.txt
-*.js
+
+node_modules
